@@ -5,7 +5,7 @@
 }
 body {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   font-family: PremierSans-Regular,Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 header {
@@ -365,6 +365,49 @@ table td.medium {
 }
 table td.normal {
   width: 4rem;
+}
+footer {
+  height: 50rem;
+  background-color: #37003c;
+  margin-top: 3rem;
+  padding: 4px 0;
+  background-image: url(./teamlogo/background.png);
+  background-size: cover;
+  background-repeat: repeat;
+
+}
+.footer-top {
+  background-color: #fff;
+  height: 30%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.footer-mid {
+  height: 55%;
+}
+.footer-bottom {
+  height: 15%;
+  background-color: #fff;
+}
+.main-sponsers, .sec-sponsers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main-sponsers p, .sec-sponsers p {
+  text-align: center;
+  color: #898b89;
+}
+.main-sponsers span, .sec-sponsers span {
+  height: 80%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-sponsers img, .sec-sponsers img {
+  width: 70%;
 }
 
 
