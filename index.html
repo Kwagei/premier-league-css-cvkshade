@@ -76,19 +76,11 @@
             <div class="links">
                 <nav class="top">
                     <ul>
-                        <li><select>
-                                <option value="">Premier League</option>
-                            </select></li>
-                        <li><select>
-                                <option value="">Fantasy</option>
-                            </select></li>
+                        <li>Premier League<ion-icon name="caret-down-outline"></ion-icon></li>
+                        <li>Fantasy<ion-icon name="caret-down-outline"></ion-icon></li>
                         <li><a href="">Video</a></li>
-                        <li><select>
-                                <option value="">Communities</option>
-                            </select></li>
-                        <li><select>
-                                <option value="">More</option>
-                            </select></li>
+                        <li>Communities<ion-icon name="caret-down-outline"></ion-icon></li>
+                        <li>More<ion-icon name="caret-down-outline"></ion-icon></li>
                     </ul>
                     <div class="login">
                         <span><a href="">No Room For Racism</a>
@@ -126,7 +118,7 @@
             <div class="ctrl">
                 <div class="title">
                     <h1>Tables</h1>
-                    <p><ion-icon name="share-outline"></ion-icon> share</p>
+                    <p><ion-icon name="share-outline"></ion-icon> Share</p>
                 </div>
                 <ul>
                     <li style="background-color: #fff;">First Team</li>
@@ -213,7 +205,7 @@
                     <td class="small">45</td>
                     <td class="small">16</td>
                     <td class="small">+29</td>
-                    <td class="small">50</td>
+                    <td class="small points">50</td>
                     <td class="medium">
                         <span class="win">W</span>
                         <span class="win">W</span>
@@ -234,7 +226,7 @@
                     <td class="small">53</td>
                     <td class="small">20</td>
                     <td class="small">+33</td>
-                    <td class="small">45</td>
+                    <td class="small points">45</td>
                     <td class="medium">
                         <span class="draw">D</span>
                         <span class="win">W</span>
@@ -255,7 +247,7 @@
                     <td class="small">33</td>
                     <td class="small">11</td>
                     <td class="small">+22</td>
-                    <td class="small">39</td>
+                    <td class="small points">39</td>
                     <td class="medium">
                         <span class="win">W</span>
                         <span class="draw">D</span>
@@ -276,7 +268,7 @@
                     <td class="small">32</td>
                     <td class="small">25</td>
                     <td class="small">+7</td>
-                    <td class="small">39</td>
+                    <td class="small points">39</td>
                     <td class="medium">
                         <span class="win">W</span>
                         <span class="win">W</span>
@@ -297,7 +289,7 @@
                     <td class="small">40</td>
                     <td class="small">31</td>
                     <td class="small">+9</td>
-                    <td class="small">36</td>
+                    <td class="small points">36</td>
                     <td class="medium">
                         <span class="lost">L</span>
                         <span class="win">W</span>
@@ -318,7 +310,7 @@
                     <td class="small">37</td>
                     <td class="small">27</td>
                     <td class="small">+10</td>
-                    <td class="small">50</td>
+                    <td class="small points">50</td>
                     <td class="medium">
                         <span class="win">W</span>
                         <span class="lost">L</span>
@@ -330,29 +322,308 @@
                 </tr>
                 <tr>
                     <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
-                    <td class="normal">1</td>
-                    <td class="club"><img class="image" src="./teamlogo/arse.png">Arsenal</td>
-                    <td class="small">19</td>
-                    <td class="small">16</td>
-                    <td class="small">2</td>
-                    <td class="small">1</td>
-                    <td class="small">45</td>
-                    <td class="small">16</td>
-                    <td class="small">+29</td>
-                    <td class="small">50</td>
+                    <td class="normal">7</td>
+                    <td class="club"><img class="image" src="./teamlogo/fulham.png">Fulham</td>
+                    <td class="small">21</td>
+                    <td class="small">9</td>
+                    <td class="small">4</td>
+                    <td class="small">6</td>
+                    <td class="small">37</td>
+                    <td class="small">27</td>
+                    <td class="small">+10</td>
+                    <td class="small points">31</td>
                     <td class="medium">
                         <span class="win">W</span>
+                        <span class="win">W</span>
+                        <span class="win">W</span>
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/chels.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">8</td>
+                    <td class="club"><img class="image" src="./teamlogo/brent.png">Brentford</td>
+                    <td class="small">20</td>
+                    <td class="small">7</td>
+                    <td class="small">9</td>
+                    <td class="small">4</td>
+                    <td class="small">32</td>
+                    <td class="small">28</td>
+                    <td class="small">+4</td>
+                    <td class="small points">30</td>
+                    <td class="medium">
+                        <span class="draw">W</span>
+                        <span class="win">W</span>
+                        <span class="win">W</span>
+                        <span class="win">W</span>
+                        <span class="draw">D</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/south.png"></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">9</td>
+                    <td class="club"><img class="image" src="./teamlogo/liver.png">Liverpool</td>
+                    <td class="small">19</td>
+                    <td class="small">8</td>
+                    <td class="small">5</td>
+                    <td class="small">6</td>
+                    <td class="small">34</td>
+                    <td class="small">25</td>
+                    <td class="small">+9</td>
+                    <td class="small points">29</td>
+                    <td class="medium">
+                        <span class="win">W</span>
+                        <span class="win">W</span>
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="draw">D</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/wolves.png"></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">10</td>
+                    <td class="club"><img class="image" src="./teamlogo/chels.png">Chelsea</td>
+                    <td class="small">20</td>
+                    <td class="small">8</td>
+                    <td class="small">5</td>
+                    <td class="small">7</td>
+                    <td class="small">22</td>
+                    <td class="small">21</td>
+                    <td class="small">+1</td>
+                    <td class="small points">29</td>
+                    <td class="medium">
+                        <span class="draw">D</span>
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="win">W</span>
+                        <span class="draw">D</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/fulham.png"></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">11</td>
+                    <td class="club"><img class="image" src="./teamlogo/aston.png">Aston Villa</td>
+                    <td class="small">20</td>
+                    <td class="small">8</td>
+                    <td class="small">4</td>
+                    <td class="small">8</td>
+                    <td class="small">23</td>
+                    <td class="small">27</td>
+                    <td class="small">-4</td>
+                    <td class="small points">28</td>
+                    <td class="medium">
+                        <span class="lost">L</span>
                         <span class="win">W</span>
                         <span class="draw">D</span>
                         <span class="win">W</span>
                         <span class="win">W</span>
                     </td>
-                    <td class="small next"><img class="image" src="./teamlogo/ever.png" alt=""></td>
+                    <td class="small next"><img class="image" src="./teamlogo/leices.png" alt=""></td>
                 </tr>
-                
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">12</td>
+                    <td class="club"><img class="image" src="./teamlogo/crys.png">Crystal Palace</td>
+                    <td class="small">20</td>
+                    <td class="small">6</td>
+                    <td class="small">6</td>
+                    <td class="small">8</td>
+                    <td class="small">18</td>
+                    <td class="small">27</td>
+                    <td class="small">-9</td>
+                    <td class="small points">24</td>
+                    <td class="medium">
+                        <span class="win">W</span>
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="draw">D</span>
+                        <span class="draw">D</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/manu.png"></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">13</td>
+                    <td class="club"><img class="image" src="./teamlogo/nott.png">Nottingham Forest</td>
+                    <td class="small">20</td>
+                    <td class="small">5</td>
+                    <td class="small">3</td>
+                    <td class="small">9</td>
+                    <td class="small">16</td>
+                    <td class="small">35</td>
+                    <td class="small">-19</td>
+                    <td class="small points">21</td>
+                    <td class="medium">
+                        <span class="lost">L</span>
+                        <span class="draw">D</span>
+                        <span class="win">W</span>
+                        <span class="win">W</span>
+                        <span class="draw">D</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/leeds.png"></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">14</td>
+                    <td class="club"><img class="image" src="./teamlogo/leices.png">Leicester City</td>
+                    <td class="small">20</td>
+                    <td class="small">5</td>
+                    <td class="small">3</td>
+                    <td class="small">12</td>
+                    <td class="small">28</td>
+                    <td class="small">35</td>
+                    <td class="small">-7</td>
+                    <td class="small points">18</td>
+                    <td class="medium">
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="draw">D</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/aston.png"></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">15</td>
+                    <td class="club"><img class="image" src="./teamlogo/leeds.png">Leeds United</td>
+                    <td class="small">19</td>
+                    <td class="small">4</td>
+                    <td class="small">6</td>
+                    <td class="small">9</td>
+                    <td class="small">26</td>
+                    <td class="small">33</td>
+                    <td class="small">-7</td>
+                    <td class="small points">18</td>
+                    <td class="medium">
+                        <span class="lost">L</span>
+                        <span class="draw">D</span>
+                        <span class="draw">D</span>
+                        <span class="lost">L</span>
+                        <span class="draw">D</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/nott.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">16</td>
+                    <td class="club"><img class="image" src="./teamlogo/westh.png">Westham United</td>
+                    <td class="small">20</td>
+                    <td class="small">5</td>
+                    <td class="small">3</td>
+                    <td class="small">12</td>
+                    <td class="small">17</td>
+                    <td class="small">25</td>
+                    <td class="small">-8</td>
+                    <td class="small points">18</td>
+                    <td class="medium">
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="draw">D</span>
+                        <span class="lost">L</span>
+                        <span class="win">W</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/newc.png"></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">17</td>
+                    <td class="club"><img class="image" src="./teamlogo/wolves.png">Wolverhampton Wanderers</td>
+                    <td class="small">20</td>
+                    <td class="small">4</td>
+                    <td class="small">5</td>
+                    <td class="small">11</td>
+                    <td class="small">12</td>
+                    <td class="small">30</td>
+                    <td class="small">-18</td>
+                    <td class="small points">17</td>
+                    <td class="medium">
+                        <span class="win">W</span>
+                        <span class="lost">L</span>
+                        <span class="draw">D</span>
+                        <span class="win">W</span>
+                        <span class="lost">L</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/liver.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">18</td>
+                    <td class="club"><img class="image" src="./teamlogo/bourne.png">Bournemouth</td>
+                    <td class="small">20</td>
+                    <td class="small">4</td>
+                    <td class="small">5</td>
+                    <td class="small">11</td>
+                    <td class="small">19</td>
+                    <td class="small">42</td>
+                    <td class="small">-23</td>
+                    <td class="small points">17</td>
+                    <td class="medium">
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="draw">D</span>
+
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/bright.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">19</td>
+                    <td class="club"><img class="image" src="./teamlogo/ever.png">Everton</td>
+                    <td class="small">20</td>
+                    <td class="small">3</td>
+                    <td class="small">6</td>
+                    <td class="small">11</td>
+                    <td class="small">15</td>
+                    <td class="small">28</td>
+                    <td class="small">-13</td>
+                    <td class="small points">15</td>
+                    <td class="medium">
+                        <span class="lost">L</span>
+                        <span class="draw">D</span>
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/arse.png"></td>
+                </tr>
+                <tr>
+                    <td class="small dropdown"><ion-icon name="chevron-down-outline"></ion-icon></td>
+                    <td class="normal">20</td>
+                    <td class="club"><img class="image" src="./teamlogo/south.png">Southampton</td>
+                    <td class="small">20</td>
+                    <td class="small">4</td>
+                    <td class="small">3</td>
+                    <td class="small">13</td>
+                    <td class="small">17</td>
+                    <td class="small">35</td>
+                    <td class="small">-18</td>
+                    <td class="small points">15</td>
+                    <td class="medium">
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="lost">L</span>
+                        <span class="win">W</span>
+                        <span class="lost">L</span>
+                    </td>
+                    <td class="small next"><img class="image" src="./teamlogo/brent.png"></td>
+                </tr>
+
             </tbody>
         </table>
     </section>
+    <footer>
+        <div class="footer-top">top</div>
+        <div class="footer-mid">middle</div>
+        <div class="footer-bottom">bottom</div>
+    </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 

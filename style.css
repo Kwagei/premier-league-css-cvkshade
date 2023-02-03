@@ -78,18 +78,23 @@ nav.top ul li {
   margin: 0 1rem;
   cursor: pointer;
 }
-nav.top ul select {
+nav.top ul li {
   border: none;
   background-color: #37003c;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: bold;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+nav.top ul ion-icon {
+  padding-left: 10px;
 }
 nav.top a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -136,6 +141,7 @@ nav.bottom ul {
   color: rgb(77, 69, 69);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
+  font-size: 0.9rem;
   padding: 0 1rem;
   height: 100%;
   padding-left: 3rem;
@@ -190,6 +196,7 @@ div.title h1 {
 div.title p {
     background-color: #fff;
     padding: 0.5rem 0.5rem;
+    font-weight: bold;
     cursor: pointer;
     margin-right: 2rem;
     border-radius: 5px;
@@ -291,12 +298,15 @@ thead {
 tbody {
   margin-top: 5px;
 }
+table td.points{
+  font-weight: bold;
+}
 .win {
   background-color: #13cf00;
   font-size: small;
   color: #fff;
   font-weight: bold;
-  padding: 8px 9px;
+  padding: 0.5rem 0.6rem;
   border-radius: 50%;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -305,7 +315,7 @@ tbody {
   font-size: small;
   color: #fff;
   font-weight: bold;
-  padding: 8px 9px;
+  padding: 0.5rem 0.6rem;
   border-radius: 50%;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -314,7 +324,7 @@ tbody {
   font-size: small;
   color: #fff;
   font-weight: bold;
-  padding: 8px 9px;
+  padding: 0.5rem 0.6rem;
   border-radius: 50%;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -326,6 +336,9 @@ table .image{
 }
 table td.dropdown {
   background-color: #fbfbfb;
+}
+table td.dropdown:hover {
+  background-color: #ff2882;
 }
 table th {
   height: 2rem;
@@ -343,6 +356,9 @@ table td.club {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+table td.club img {
+  margin-right: 1rem;
 }
 table td.medium {
   width: 15rem;
