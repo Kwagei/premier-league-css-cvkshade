@@ -11,7 +11,7 @@ body {
 header {
   background-color: #fff;
   border-bottom: 1px solid purple;
-  height: 25%;
+  height: 10em;
 }
 header div.top {
   height: 35%;
@@ -169,6 +169,7 @@ nav.bottom ul li:hover {
 /* Content Styles */
 section {
     height: 100%;
+    width: 100vw;
 }
 .banner {
   background-image: url(./heading-bg-desktop.svg);
@@ -277,6 +278,9 @@ span.reset {
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
 }
+.reset-filter ion-icon {
+  transform: rotateY(180deg);}
+
 section {
   padding: auto;
 }
@@ -301,38 +305,28 @@ tbody {
 table td.points{
   font-weight: bold;
 }
+td.medium span {
+  color: #fff;
+  font-size: small;
+  font-weight: bold;
+  padding: 7px 10px;
+  border-radius: 100%;
+  margin: 0 0.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .win {
   background-color: #13cf00;
-  font-size: small;
-  color: #fff;
-  font-weight: bold;
-  padding: 0.5rem 0.6rem;
-  border-radius: 50%;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .draw {
   background-color: #898b89;
-  font-size: small;
-  color: #fff;
-  font-weight: bold;
-  padding: 0.5rem 0.6rem;
-  border-radius: 50%;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .lost {
   background-color: #c50b0b;
-  font-size: small;
-  color: #fff;
-  font-weight: bold;
-  padding: 0.5rem 0.6rem;
-  border-radius: 50%;
-  font-family: Arial, Helvetica, sans-serif;
 }
 table .image{
-  width: 30px;
+  width: 25px;
   height: 25px;
-  padding-right: 5px;
-
 }
 table td.dropdown {
   background-color: #fbfbfb;
@@ -360,6 +354,13 @@ table td.club {
 table td.club img {
   margin-right: 1rem;
 }
+.next img {
+  border: 1px solid gainsboro;
+  padding: 5px;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
 table td.medium {
   width: 15rem;
 }
@@ -367,13 +368,13 @@ table td.normal {
   width: 4rem;
 }
 footer {
-  height: 50rem;
+  height: 800px;
   background-color: #37003c;
   margin-top: 3rem;
   padding: 4px 0;
-  background-image: url(./teamlogo/background.png);
-  background-size: cover;
-  background-repeat: repeat;
+  background-image: url(./teamlogo/footerback.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 
 }
 .footer-top {
@@ -383,10 +384,11 @@ footer {
   grid-template-rows: 1fr 1fr;
 }
 .footer-mid {
-  height: 55%;
+  height: 60%;
+  
 }
 .footer-bottom {
-  height: 15%;
+  height: 10%;
   background-color: #fff;
 }
 .main-sponsers, .sec-sponsers {
@@ -409,5 +411,6 @@ footer {
 .main-sponsers img, .sec-sponsers img {
   width: 70%;
 }
+
 
 
